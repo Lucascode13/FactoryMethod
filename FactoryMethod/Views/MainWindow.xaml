@@ -1,0 +1,29 @@
+﻿<Window x:Class="FactoryMethod.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Cadastro de Alunos" Height="350" Width="400">
+
+    <StackPanel Margin="10">
+
+        <TextBlock Text="Nome"/>
+        <TextBox Text="{Binding Nome}" Margin="5"/>
+
+        <TextBlock Text="Idade"/>
+        <TextBox Text="{Binding Idade}" Margin="5"/>
+
+        <TextBlock Text="Tipo"/>
+        <ComboBox Margin="5"
+                  SelectedValuePath="Content"
+                  SelectedValue="{Binding TipoSelecionado}">
+            <ComboBoxItem Content="Regular"/>
+            <ComboBoxItem Content="Bolsista"/>
+        </ComboBox>
+
+        <Button Content="Cadastrar"
+                Command="{Binding CadastrarCommand}"
+                Margin="5"/>
+
+        <ListBox ItemsSource="{Binding Alunos}" Margin="5"/>
+
+    </StackPanel>
+</Window>
