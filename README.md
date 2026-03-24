@@ -138,4 +138,6 @@ Este projeto conta com um relatório técnico detalhado que aborda:
 Lucas Aquino Guedes
 
 ---
+## Ano e Cidade
 
+Nova Lima - 2026
