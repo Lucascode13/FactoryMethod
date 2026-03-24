@@ -39,3 +39,31 @@ O Factory Method é um padrão criacional que define uma interface para criaçã
 ---
 
 ## 🏗 Estrutura do Projeto
+
+```
+FactoryMethod/
+│
+├── Models/
+├── ViewModels/
+├── Views/
+├── Commands/
+```
+
+##  Como Executar
+
+1. Clone o repositório:
+   
+git clone https://github.com/Lucascode13/FactoryMethod.git
+
+2. Abra o projeto no JetBrains Rider ou Visual Studio
+
+3. Compile e execute a aplicação
+
+4. Preencha os dados:
+   - Nome
+   - Idade
+   - Tipo de aluno
+
+5. Clique em **Cadastrar** para visualizar o aluno na lista
+
+---
