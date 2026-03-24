@@ -67,3 +67,21 @@ git clone https://github.com/Lucascode13/FactoryMethod.git
 5. Clique em **Cadastrar** para visualizar o aluno na lista
 
 ---
+
+ Funcionamento
+
+O sistema utiliza o padrão Factory Method para criar objetos do tipo `Aluno`.
+
+Com base na escolha do usuário, uma fábrica específica é utilizada para instanciar o objeto correto.
+
+Exemplo de uso:
+
+```csharp
+AlunoFactory factory;
+
+if (TipoSelecionado == "Regular")
+    factory = new AlunoRegularFactory();
+else
+    factory = new AlunoBolsistaFactory();
+
+var aluno = factory.CriarAluno();
