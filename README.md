@@ -104,3 +104,38 @@ var aluno = factory.CriarAluno();
 - Pode ser desnecessário para aplicações muito simples
 
 ---
+
+##  Aplicações Reais
+
+O padrão Factory Method é amplamente utilizado em:
+
+- Frameworks como .NET
+- Sistemas de pagamento (criação de diferentes métodos)
+- Jogos (criação de personagens/inimigos)
+- Sistemas de logística
+- APIs e bibliotecas
+
+---
+
+##  Documentação
+
+Este projeto conta com um relatório técnico detalhado que aborda:
+
+- Definição do padrão Factory Method
+- Problema que o padrão resolve
+- Estrutura e participantes
+- Justificativa da escolha
+- Implementação no projeto
+- Análise crítica
+- Comparação com abordagem sem padrão
+- Vantagens e desvantagens
+- Exemplos reais de uso
+
+---
+
+##  Autor
+
+Lucas Aquino Guedes
+
+---
+
