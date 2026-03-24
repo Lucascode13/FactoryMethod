@@ -85,3 +85,22 @@ else
     factory = new AlunoBolsistaFactory();
 
 var aluno = factory.CriarAluno();
+```
+##  Vantagens do Factory Method
+
+- Redução do acoplamento entre classes
+- Código mais organizado e modular
+- Facilidade de manutenção
+- Maior escalabilidade do sistema
+- Permite adicionar novos tipos de objetos sem alterar o código existente
+- Segue o princípio de aberto/fechado (Open/Closed Principle)
+
+---
+
+##  Desvantagens
+
+- Aumento na quantidade de classes no projeto
+- Maior complexidade inicial
+- Pode ser desnecessário para aplicações muito simples
+
+---
